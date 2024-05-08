@@ -12,15 +12,16 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
   // the setup function runs once when you press reset or power the board
   void setup()
   {
-    Serial.begin(115200);
+    SerialUSB.begin(115200);
     pinMode(A3, INPUT);
+    analogReference(AR_DEFAULT);
   }
 
   // the loop function runs over and over again forever
   void loop()
   {
-    float vin = analogRead (A3) * 2 * 0.003226; // 0.003226 = 3.3 / 1023
-    Serial.println(vin);
+    float vin = analogRead (A3) * 4.63 * 0.0008056 ; // 0.0008056 = 3.3 / 4096
+    SerialUSB.println(vin);
     delay(2000); // wait for a second
   }
 ```
