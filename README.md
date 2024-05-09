@@ -1,7 +1,7 @@
 # LoRaWAN-mightyBrick32
 Everything you would like to know about LoRaWAN-mightyBrick32 board
 
-### LED
+### Blue LED
 - The on-board blue LED is attached to pin `A4`, that can be used for debugging.
 - If needed, a jumper is provided (labelled as L) to remove LED from the `A4` pin.
 - Below is the sample code for LED blink.
@@ -23,9 +23,13 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
   ```
 
 
-### On board I2C EEPROM
+### I2C EEPROM
 - 24AA02E64 2Kb I2C EEPROM chip with EUI-64 MAC ID. The EUI-64 can be used as globally unique Device EUI (DevEUI) to uniquely identify a LoRaWAN node.
-- The EEPROM chip can be powered from 3.3V or using the GPIO  
+- The EEPROM chip can be powered from 3.3V or from GPIO pin `A2` using the jumper.
+- If you are concerned with power consumption, I would suggest using pin `A2` to control the EEPROM power.
+- Below is the sample code to extract EUI-64.
+  ```c
+  ```
 
 ### Measuring VBAT voltage
 - Voltage divider is placed between VBAT and A3 as shown in figure 
