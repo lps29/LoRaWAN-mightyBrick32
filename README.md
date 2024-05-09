@@ -8,8 +8,8 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
   ```c
     void setup() 
     {
-    // initialize digital pin LED_BUILTIN as an output.
-    pinMode(LED_BUILTIN, OUTPUT); // A4 or 16 can also be used, instead of LED_BUILTIN, 
+      // initialize digital pin LED_BUILTIN as an output.
+      pinMode(LED_BUILTIN, OUTPUT); // A4 or 16 can also be used, instead of LED_BUILTIN, 
     }
 
     // the loop function runs over and over again forever
@@ -33,24 +33,24 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 - When only battery is connected, then A3 will read the actual battery voltage.
 - Below sample code helps you to read the correct battery voltage correctly.
 
-```c
-  // the setup function runs once when you press reset or power the board
-  void setup()
-  {
-    SerialUSB.begin(115200);
-    pinMode(A3, INPUT);
-    analogReference(AR_DEFAULT); // Make sure to use the default reference voltage 3.3V
-    //analogReadResolution(12); // Default resolution is 10bit, use this for 12-bit resolution  
-  }
+  ```c
+    // the setup function runs once when you press reset or power the board
+    void setup()
+    {
+      SerialUSB.begin(115200);
+      pinMode(A3, INPUT);
+      analogReference(AR_DEFAULT); // Make sure to use the default reference voltage 3.3V
+      //analogReadResolution(12); // Default resolution is 10bit, use this for 12-bit resolution  
+    }
 
-  // the loop function runs over and over again forever
-  void loop()
-  {
-    //float vin = analogRead(A3) * 1.275 * 0.0008056 ; // For 12-bit resolution, 0.0008056 = 3.3 / 4096
-    float vin = analogRead(A3) * 1.275 * 0.0032226 ; // For 10-bit resolution, 0.0032226 = 3.3 / 1024
-    SerialUSB.println(vin);
-    delay(2000); // wait for a second
-  }
-```
+    // the loop function runs over and over again forever
+    void loop()
+    {
+      //float vin = analogRead(A3) * 1.275 * 0.0008056 ; // For 12-bit resolution, 0.0008056 = 3.3 / 4096
+      float vin = analogRead(A3) * 1.275 * 0.0032226 ; // For 10-bit resolution, 0.0032226 = 3.3 / 1024
+      SerialUSB.println(vin);
+      delay(2000); // wait for a second
+    }
+  ```
 
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
