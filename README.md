@@ -14,7 +14,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
   {
     SerialUSB.begin(115200);
     pinMode(A3, INPUT);
-    analogReference(AR_DEFAULT);
+    analogReference(AR_DEFAULT); // Use the default reference voltage 3.3V
   }
 
   // the loop function runs over and over again forever
