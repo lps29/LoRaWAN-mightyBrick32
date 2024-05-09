@@ -15,14 +15,14 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
     SerialUSB.begin(115200);
     pinMode(A3, INPUT);
     analogReference(AR_DEFAULT); // Make sure to use the default reference voltage 3.3V
-    //analogReadResolution(12); // Default resolution is 10bits, use this for 12-bits resolution  
+    //analogReadResolution(12); // Default resolution is 10bit, use this for 12-bit resolution  
   }
 
   // the loop function runs over and over again forever
   void loop()
   {
     //float vin = analogRead(A3) * 1.275 * 0.0008056 ; // For 12-bit resolution, 0.0008056 = 3.3 / 4096
-    float vin = analogRead(A3) * 1.275 * 0.0032226 ; // For 10-bit reolution, 0.0032226 = 3.3 / 1024
+    float vin = analogRead(A3) * 1.275 * 0.0032226 ; // For 10-bit resolution, 0.0032226 = 3.3 / 1024
     SerialUSB.println(vin);
     delay(2000); // wait for a second
   }
