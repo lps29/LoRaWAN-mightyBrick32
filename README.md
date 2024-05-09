@@ -4,7 +4,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 
 ### Measuring VBAT voltage
 - Voltage divider is placed between VBAT and A3 as shown in figure 
-- When USB and/or battery are connected the reading from A3 should be around 4.2V 
+- When USB and battery are connected the reading from A3 is the charging voltage. 
 - When only battery is connected, then A3 will read the actual battery voltage.
 - Below sample code helps you to read the correct battery voltage.
 
@@ -14,13 +14,15 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
   {
     SerialUSB.begin(115200);
     pinMode(A3, INPUT);
-    analogReference(AR_DEFAULT); // Use the default reference voltage 3.3V
+    analogReference(AR_DEFAULT); // Make sure to use the default reference voltage 3.3V
+    //analogReadResolution(12); // Default resolution is 10bits, use this for 12-bits resolution  
   }
 
   // the loop function runs over and over again forever
   void loop()
   {
-    float vin = analogRead (A3) * 4.63 * 0.0008056 ; // 0.0008056 = 3.3 / 4096
+    //float vin = analogRead(A3) * 1.275 * 0.0008056 ; // For 12-bit resolution, 0.0008056 = 3.3 / 4096
+    float vin = analogRead(A3) * 1.275 * 0.0032226 ; // For 10-bit reolution, 0.0032226 = 3.3 / 1024
     SerialUSB.println(vin);
     delay(2000); // wait for a second
   }
