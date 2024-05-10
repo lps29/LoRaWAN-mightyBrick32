@@ -6,14 +6,14 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 - Add the MightyBrick core json definition URL ([https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json](https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json)) to your Board Manager. Follow this [link](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE) to add third-party platforms to the Boards Manager in Arduino IDE.
 
 ### Solder jumpers
-- There are many jumpers on LoRaWAN-mightyBrick32, here's a short description of each and default state. Please follow schematics for more details.
-  - L (open) : Use it to connect and disconnect on-board blue LED from `A3` pin. This allows you to save some power or if `A3` is required.
+- There are many jumpers on LoRaWAN-mightyBrick32, here's a short description of each and default state. Please follow schematics for more details. See section on [`Blue Led`](#blue-led) for more details.
+  - L (open) : Use it to connect and disconnect on-board blue LED from `A3` pin. This allows you to save some power or if `A3` is required. See section on [`Measuring VBAT voltage`](#measuring-vbat-voltage) for more details.
   - B (open) : There are two jumpers labeled as B, close both of them to enable `VBAT` measuring circuit, open both of them to save leakage current of around ~$1.65\mu A$.
-  - VB (close) and VE (open) : It's a 2:1 jumper, where the middle pad is common to both VB and VE. This jumper is used to select battery voltage (`VBAT`) or external voltage (`VIN_EXT`) as the input voltage source. [`How to power the board`](#how-to-power-the-board) 
+  - VB (close) and VE (open) : It's a 2:1 jumper, where the middle pad is common to both VB and VE. This jumper is used to select battery voltage (`VBAT`) or external voltage (`VIN_EXT`) as the input voltage source. See section on [`How to power the board`](#how-to-power-the-board) for more details.
   - D1 (open) : Close it to connect LoRa module `DIO1` pin to pin `17` of the MCU.
   - D2 (open) : Close it to connect LoRa module `DIO2` pin to pin `18` of the MCU.
 
-### How to power the board?
+### How to power the board
 - The board can be powered from 4 different input voltage sources as follows : 
   - USB
     - The 5V (`VBUS`) of the USB gets converted to 3.3V using MCP1703A LDO, that powers the rest of the system.
