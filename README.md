@@ -7,11 +7,14 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 
 ### Solder jumpers
 - There are many jumpers on LoRaWAN-mightyBrick32, here's a short description of each and default state. Please follow schematics for more details. See section on [`Blue Led`](#blue-led) for more details.
-  - L (open) : Use it to connect and disconnect on-board blue LED from `A3` pin. This allows you to save some power or if `A3` is required. See section on [`Measuring VBAT voltage`](#measuring-vbat-voltage) for more details.
-  - B (open) : There are two jumpers labeled as B, close both of them to enable `VBAT` measuring circuit, open both of them to save leakage current of around ~$1.65\mu A$.
-  - VB (close) and VE (open) : It's a 2:1 jumper, where the middle pad is common to both VB and VE. This jumper is used to select battery voltage (`VBAT`) or external voltage (`VIN_EXT`) as the input voltage source. See section on [`How to power the board`](#how-to-power-the-board) for more details.
-  - D1 (open) : Close it to connect LoRa module `DIO1` pin to pin `17` of the MCU.
-  - D2 (open) : Close it to connect LoRa module `DIO2` pin to pin `18` of the MCU.
+  - **L** (open) : Use it to connect and disconnect on-board blue LED from `A3` pin. This allows you to save some power or if `A3` is required. See section on [`Measuring VBAT voltage`](#measuring-vbat-voltage) for more details.
+  - **B** (open) : There are two jumpers labeled as B, close both of them to enable `VBAT` measuring circuit, open both of them to save leakage current of around ~$1.65\mu A$.
+  - **VB** (close) and VE (open) : It's a 2:1 jumper, where the middle pad is common to both VB and VE. This jumper is used to select battery voltage (`VBAT`) or external voltage (`VIN_EXT`) as the input voltage source. See section on [`How to power the board`](#how-to-power-the-board) for more details.
+  - **D1** (open) : Close it to connect LoRa module `DIO1` pin to pin `17` of the MCU.
+  - **D2** (open) : Close it to connect LoRa module `DIO2` pin to pin `18` of the MCU.
+  - **MEM_3v3** (close) and **MEM_GPIO** (open) : This jumper is not labelled on the board because of space but is shown in figure. It's a 2:1 jumper, where the middle pad is common to both **MEM_3v3** and **MEM_GPIO** and is connected to VCC of the 24AA02E64 EEPROM. This jumper allows EEPROM to power from 3.3V or from GPIO. See section on [`I2C EEPROM`](#i2c-eeprom) for more details.
+  - **3v3_INT** (close) : Open this jumper to use externally supplied 3.3V using the pin labeled 3v3. See section on [`How to power the board`](#how-to-power-the-board) for more details.
+  - **SD** (close) : Open this jumper to 
 
 ### How to power the board
 - The board can be powered from 4 different input voltage sources as follows : 
@@ -29,7 +32,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
     - WARNING : Use either `VBAT` or `VIN_EXT`, never enable `VB` and `VE` at the same time.
     - The pin labeled as `3v3` can be used to power expernal circuit.
   - External 3.3V
-    - In order to use external 3.3V remove the jumper as shown in figure below, by default the jumper is enabled.
+    - In order to use external 3.3V open the jumper (`3v3_INT`) as shown in figure below, by default the jumper is closed.
     - Use pin labeled as `3v3` to supply the voltage.
     - This mode bypasses the MCP1703A LDO, so it removes `VBUS`, `VIN_EXT` and `VBAT` from circuit.
     - The whole system is supplied from this power source, so make sure the voltage does not increases beyond 3.3V but you can go down to 3.0V
