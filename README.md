@@ -2,9 +2,21 @@
 Everything you would like to know about LoRaWAN-mightyBrick32 board
 
 ### How to power the board?
-- The board can be powered from three different voltage sources based on requirements.
+- The board can be powered from 4 different input voltage sources as follows : 
   - USB
-    -     
+    - The 5V (`VBUS`) of the USB gets converted to 3.3V using MCP1703A LDO, that powers the rest of the system.
+  - Battery `VBAT` (marked as `VB` on PCB)
+    - The battery voltage (`VBAT`) ~4.2V gets converted into 3.3V using MCP1703A LDO, that powers the rest of the system.
+    - Use jumper labeled as `VB` to enable `VBAT`, by default `VBAT` is enabled.    
+  - External Voltage `VIN_EXT` (marked as `VE` on PCB)
+    - Instead of a battery it is possble to use an external voltage source bypassing the MCP73831. Make sure `3.3V < VE < 5.5V`
+    - Use jumper labeled  as `VE` to enable the `VIN_EXT`, by default `VIN_EXT` is disabled.
+    - WARNING : Use either `VBAT` or `VIN_EXT`, never enable `VB` and `VE` at the same time. 
+  - External 3.3V (market as `3v3` on the PCB)
+    - In order to use external 3.3V remove the jumper as shown in figure below, by default the jumper is enabled.
+    - This mode bypasses the MCP1703A LDO, so it removes `VBUS`, `VIN_EXT` and `VBAT` from circuit.
+    - The whole system is supplied from this power source, so make sure the voltage does not increases beyond 3.3V but you can go down to 3.0V
+-
 
 ### Blue LED
 - The on-board blue LED is attached to pin `A4`, that can be used for debugging.
