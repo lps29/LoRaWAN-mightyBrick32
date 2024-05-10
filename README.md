@@ -1,6 +1,11 @@
 # LoRaWAN-mightyBrick32
 Everything you would like to know about LoRaWAN-mightyBrick32 board
 
+### How to power the board?
+- The board can be powered from three different voltage sources based on requirements.
+  - USB
+    -     
+
 ### Blue LED
 - The on-board blue LED is attached to pin `A4`, that can be used for debugging.
 - If needed, a jumper is provided (labelled as L) to remove LED from the `A4` pin.
