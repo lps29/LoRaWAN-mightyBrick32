@@ -26,7 +26,8 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 ### I2C EEPROM
 - 24AA02E64 2Kb I2C EEPROM chip with EUI-64 MAC ID. The EUI-64 can be used as globally unique Device EUI (DevEUI) to uniquely identify a LoRaWAN node.
 - The EEPROM chip can be powered from 3.3V or from GPIO pin `A2` using the jumper.
-- If you are concerned with power consumption, I would suggest using pin `A2` to control the EEPROM power.
+- If you are concerned with power consumption, I would suggest using pin `A2` to control the EEPROM power or remove both jumpers if you don't want EEPROM.
+- The I2C address of 24AA02E64 is `0b1010A2A1A0` apparently for this particular device the last three (excluding R/W bit) are marked don't care, that means the device will respond to any address from `0x50` to `0x57`.
 - Below is the sample code to extract EUI-64.
   ```c
   ```
