@@ -5,7 +5,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 - The board can be powered from 4 different input voltage sources as follows : 
   - USB
     - The 5V (`VBUS`) of the USB gets converted to 3.3V using MCP1703A LDO, that powers the rest of the system.
-    - The actual voltage received by MCP1703A is $5V - forward voltage drop of schottky diode$ 
+    - The actual voltage received by MCP1703A is 5V minus the forward voltage drop of schottky diode (D1).
   - Battery Voltage `VBAT`
     - The battery voltage (`VBAT`) ~4.2V gets converted into 3.3V using MCP1703A LDO, that powers the rest of the system.
     - Use jumper labeled as `VB` to enable `VBAT`, by default `VBAT` is enabled.
