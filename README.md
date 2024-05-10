@@ -37,6 +37,11 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
   ```c
   ```
 
+### Battery Charger
+- MCP73831 is used to charge to single cell Li-ion/Li-polymer via USB.
+- The regulation voltage during constant-voltage mode is fixed at `4.2V`
+- The regulation current (max charging current) is fixed at `~210mA` 
+
 ### Measuring VBAT voltage
 - Voltage divider is placed between VBAT and A3 as shown in figure
 - When only USB is connected the reading from A3 is the regulation voltage (Constant-Voltage mode) of MCP73831 which is 4.2V
