@@ -5,6 +5,11 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 - To use LoRaWAN-mightyBrick32 with Arduino IDE you will need to install the latest **Arduino SAMD Boards** package and then also the **LowPowerSolutions SAMD Boards** package by [LowPowerSolutions](https://www.tindie.com/stores/lps/).
 - Add the MightyBrick core json definition URL ([https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json](https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json)) to your Board Manager. Follow this [link](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE) to add third-party platforms to the Boards Manager in Arduino IDE.
 
+### Solder jumpers
+- There are many jumpers on LoRaWAN-mightyBrick32, here's a short description of each and default state. Please follow schematics for more details.
+  - L (open) : Use it to connect and disconnect on-board blue LED from `A3` pin. This allows you to save some power or if `A3` is required.
+  - B (open) : There are two jumpers labeled as B, close both of them to enable `VBAT` measuring circuit, open both of them to save leakage current of around $~1.6\mu A$
+
 ### How to power the board?
 - The board can be powered from 4 different input voltage sources as follows : 
   - USB
