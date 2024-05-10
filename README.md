@@ -67,9 +67,9 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 - The regulation current (max charging current) is fixed at `~210mA` 
 
 ### Measuring VBAT voltage
-- Voltage divider is placed between VBAT and A3 as shown in figure
-- When only USB is connected the reading from A3 is the regulation voltage (Constant-Voltage mode) of MCP73831 which is 4.2V
-- When USB and battery are connected the reading from A3 is the charging voltage. 
+- Voltage divider is placed between `VBAT` and `A3` as shown in figure
+- When only USB is connected the reading from `A3` is the regulation voltage (Constant-Voltage mode) of MCP73831 which is 4.2V
+- When USB and battery are connected the reading from `A3` is the charging voltage. 
 - When only battery is connected, then A3 will read the actual battery voltage.
 - Below sample code helps you to read the correct battery voltage correctly.
 
@@ -92,5 +92,8 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
       delay(2000); // wait for a second
     }
   ```
+
+  ### Some useful features to save power
+  - 
 
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
