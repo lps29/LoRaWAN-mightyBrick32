@@ -67,13 +67,52 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 - The EEPROM chip can be powered from 3.3V or from GPIO pin `A2` using the jumper.
 - If you are concerned with power consumption, I would suggest using pin `A2` to control the EEPROM power or remove both jumpers if you don't want EEPROM.
 - The I2C address of 24AA02E64 is `0b 1 0 1 0 A2 A1 A0` apparently for this particular device the last three bits (A2 A1 A0) (excluding R/W bit) are marked don't care, that means the device will respond to any address from `0x50` to `0x57`.
-- It's possible to use [Sparkfun EEPROM library](https://github.com/sparkfun/SparkFun_External_EEPROM_Arduino_Library/tree/main), although it does not have straight forward function to extract EUI-64. Below is the list of settings that is required by the library for 24AA02E64. 
+- It's possible to use [Sparkfun EEPROM library](https://github.com/sparkfun/SparkFun_External_EEPROM_Arduino_Library/tree/main), although it does not have a straight forward function to extract EUI-64. Below is the list of settings that is required by the library for 24AA02E64. 
   - Memory Type = 2, used by `setMemoryType() \\ If you are using this function then below functions are not needed.` 
   - Memory size in bytes = 256, used by `setMemorySizeBytes(256)`
   - Address range in bytes = 1, used by `AddressBytes(1)`
   - Page size in bytes = 128, used by `setPageSizeBytes(128)`
-- Below is the sample code to extract EUI-64 using [Sparkfun EEPROM library](https://github.com/sparkfun/SparkFun_External_EEPROM_Arduino_Library/tree/main)
+- Below is the sample code to extract EUI-64 using [Sparkfun EEPROM library](https://github.com/sparkfun/SparkFun_External_EEPROM_Arduino_Library/tree/main).
   ```c
+    #include <Wire.h>
+    #include "SparkFun_External_EEPROM.h"
+
+    ExternalEEPROM my_eeprom;
+    #define EEPROM_ADDRESS 0b1010000
+    uint8_t mac64[8];
+
+    void setup() 
+    {
+      // put your setup code here, to run once:
+      SerialUSB.begin(115200);
+      delay(10);
+      SerialUSB.println("I2C EEPROM example");
+
+      Wire.begin();
+      Wire.setClock(400000);
+
+      my_eeprom.setMemoryType(2);
+  
+      if (my_eeprom.begin(EEPROM_ADDRESS, Wire) == false)
+      {
+        SerialUSB.println("No memory detected. Freezing.");
+        while (true);
+      }
+      SerialUSB.println("Memory detected!");
+    }
+
+    void loop() 
+    {
+      my_eeprom.get(248, mac64);
+
+      for(int i=0; i < 8; ++i)
+      {
+        SerialUSB.print(mac64[i], HEX);
+        SerialUSB.print(" ");
+      }
+      delay(10000);
+    }
+
   ```
 
 ### Battery Charger
