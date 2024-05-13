@@ -1,9 +1,13 @@
 # LoRaWAN-mightyBrick32
 Everything you would like to know about LoRaWAN-mightyBrick32 board
 
+### Bootloader
+- The LoRaWAN-mightyBrick32 runs the standard Arduino Zero bootloader but compiled for ATSAMD21E18 MCU. The booloader is located in the first 8KB of internal flash memory and is protected by the NVM user byte fuse.
+- The LoRaWAN-mightyBrick32 bootloader is available (here)[] for download if you wish to reflash using a SWD programmer.
+
 ### How to use the board in Arduino IDE?
 - To use LoRaWAN-mightyBrick32 with Arduino IDE you will need to install the latest **Arduino SAMD Boards** package and then also the **LowPowerSolutions SAMD Boards** package by [LowPowerSolutions](https://www.tindie.com/stores/lps/).
-- Add the MightyBrick core json definition URL ([https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json](https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json)) to your Board Manager. Follow this [link](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE) to add third-party platforms to the Boards Manager in Arduino IDE.
+- Add the MightyBrick core json definition URL ([https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json](https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json)) to your Board Manager. Follow this [link](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE) to know how to add third-party platforms to the Boards Manager in Arduino IDE.
 
 ### Solder jumpers
 - There are many jumpers on LoRaWAN-mightyBrick32, here's a short description of each and default state. Please follow schematics for more details. See section on [`Blue Led`](#blue-led) for more details.
