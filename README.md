@@ -39,7 +39,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 - When USB and (VBAT or VIN_EXT) are connect simultaneously the voltage from the USB gets preference automatically. The MCP1703A is powered from `VBUS` and the battery charging circuit (MCP73831) is active.
 - The diagram below summarizes the various imput voltage sources.
 - Please see schematics for more details.
-- | Power Options         |
+  | Power Options         |
   |---------------|-------|
   | USB           |       |
   | VBAT          |       |
