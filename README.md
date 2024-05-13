@@ -36,13 +36,13 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
     - Use pin labeled as `3v3` to supply the voltage.
     - This mode bypasses the MCP1703A LDO, so it removes `VBUS`, `VIN_EXT` and `VBAT` from circuit.
     - The whole system is supplied from this power source, so make sure the voltage does not increases beyond 3.3V but you can go down to 3.0V
-- When USB and (VBAT or VIN_EXT) are connect simultaneously the voltage from the USB gets the preference automatically. The MCP1703A is supplied from `VBUS` and the battery charging circuit (MCP73831) is active.
+- When USB and (VBAT or VIN_EXT) are connect simultaneously the voltage from the USB gets preference automatically. The MCP1703A is powered from `VBUS` and the battery charging circuit (MCP73831) is active.
 - The diagram below summarizes the various imput voltage sources.
 - Please check schematics for more details. 
 
 ### Blue LED
 - The on-board blue LED is attached to pin `A4`, that can be used for debugging.
-- If needed, a jumper is provided (labelled as L) to remove LED from the `A4` pin.
+- If needed, a jumper is provided (labelled as L) to remove LED from pin `A4`.
 - Below is the sample code for LED blink.
   ```c
     void setup() 
