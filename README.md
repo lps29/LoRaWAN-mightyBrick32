@@ -23,7 +23,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
     - The actual voltage received by MCP1703A is 5V minus the forward voltage drop of schottky diode (D1).
     - The battery charging circuit (MCP73831) is active.
   - Battery Voltage `VBAT`
-    - The battery voltage (`VBAT`) ~4.2V gets converted into 3.3V using MCP1703A LDO, that powers the rest of the system.
+    - The battery voltage (`VBAT`) ~3.7V gets converted into 3.3V using MCP1703A LDO, that powers the rest of the system.
     - Use jumper labeled as `VB` to enable `VBAT`, by default `VBAT` is enabled.
     - The pin labeled as `3v3` can be used to power expernal circuit.    
   - External Voltage `VIN_EXT`
@@ -39,12 +39,12 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 - When USB and (VBAT or VIN_EXT) are connect simultaneously the voltage from the USB gets preference automatically. The MCP1703A is powered from `VBUS` and the battery charging circuit (MCP73831) is active.
 - The diagram below summarizes the various imput voltage sources.
 - Please see schematics for more details.
-  | Power Options |        |
-  |---------------|-------|
-  | USB           |       |
-  | VBAT          |       |
-  | VIN_EXT       |       |
-  | 3.3V External |       |
+- | Power Options | Decription                      |
+  |---------------|---------------------------------|
+  | USB           | 5V via USB                      |
+  | VBAT          | 3.7V Li-ion/Li-poly via JST     |
+  | VIN_EXT       | 3.7 - 6V via VE pin             |
+  | 3.3V External | 3.3V regulated via 3v3 pin      |
 
 ### Blue LED
 - The on-board blue LED is attached to pin `A4`, that can be used for debugging.
