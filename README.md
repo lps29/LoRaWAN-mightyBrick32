@@ -38,7 +38,13 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
     - The whole system is supplied from this power source, so make sure the voltage does not increases beyond 3.3V but you can go down to 3.0V
 - When USB and (VBAT or VIN_EXT) are connect simultaneously the voltage from the USB gets preference automatically. The MCP1703A is powered from `VBUS` and the battery charging circuit (MCP73831) is active.
 - The diagram below summarizes the various imput voltage sources.
-- Please check schematics for more details. 
+- Please see schematics for more details.
+- | Power Options         |
+  |---------------|-------|
+  | USB           |       |
+  | VBAT          |       |
+  | VIN_EXT       |       |
+  | 3.3V External |       |
 
 ### Blue LED
 - The on-board blue LED is attached to pin `A4`, that can be used for debugging.
