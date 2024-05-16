@@ -2,11 +2,10 @@
 Everything you would like to know about LoRaWAN-mightyBrick32 board
 
 ### Compatible Radios
-- There are many vendors selling LoRa modules, they all will work as long as their dimensions and pinout are as per the images below.
-  Dimension in mm            |  Pinout
+- There are many vendors selling LoRa modules, they all will work as long as their dimensions and pinout are as per the images below. For example - [link](https://www.mouser.fr/ProductDetail/RF-Solutions/RFM95W-868S2?qs=OlC7AqGiEDnmrtVOomfBWA%3D%3D) 
+  Dimensions in mm            |  Pinout
   :-------------------------:|:-------------------------:
   ![](/images/LoRa-module-dimension.png)  |  ![](/images/LoRa-module-pinout.png)
-- For example - [link](https://www.mouser.fr/ProductDetail/RF-Solutions/RFM95W-868S2?qs=OlC7AqGiEDnmrtVOomfBWA%3D%3D) 
 
 ### Bootloader
 - The LoRaWAN-mightyBrick32 runs the standard Arduino Zero bootloader but compiled for ATSAMD21E18 MCU.
