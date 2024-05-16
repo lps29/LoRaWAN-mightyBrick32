@@ -2,7 +2,8 @@
 Everything you would like to know about LoRaWAN-mightyBrick32 board
 
 ### Bootloader
-- The LoRaWAN-mightyBrick32 runs the standard Arduino Zero bootloader but compiled for ATSAMD21E18 MCU. The booloader is located in the first 8KB of internal flash memory and is protected by the NVM user byte fuse.
+- The LoRaWAN-mightyBrick32 runs the standard Arduino Zero bootloader but compiled for ATSAMD21E18 MCU.
+-  The booloader is located in the first 8KB of internal flash memory and is protected by the NVM user byte fuse.
 - The LoRaWAN-mightyBrick32 bootloader is available (here)[] for download if you wish to reflash using a SWD programmer.
 
 ### How to use the board in Arduino IDE?
