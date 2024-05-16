@@ -1,6 +1,11 @@
 # LoRaWAN-mightyBrick32
 Everything you would like to know about LoRaWAN-mightyBrick32 board
 
+### Compatible Radios
+- There are many vendors selling LoRa modules, they all will work as long as dimensions and pinout are as per the image  
+- RFM95 (433/868/915MHz), similar to [link](https://www.mouser.fr/ProductDetail/RF-Solutions/RFM95W-868S2?qs=OlC7AqGiEDnmrtVOomfBWA%3D%3D)
+- 
+
 ### Bootloader
 - The LoRaWAN-mightyBrick32 runs the standard Arduino Zero bootloader but compiled for ATSAMD21E18 MCU.
 -  The booloader is located in the first 8KB of internal flash memory and is protected by the NVM user byte fuse.
