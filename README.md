@@ -2,7 +2,8 @@
 Everything you would like to know about LoRaWAN-mightyBrick32 board
 
 ### Compatible Radios
-- There are many vendors selling LoRa modules, they all will work as long as their dimensions and pinout are as per the images below.  
+- There are many vendors selling LoRa modules, they all will work as long as their dimensions and pinout are as per the images below.
+- ![LoRa module dimension in mm ](/images/LoRa-module-dimension.png)  
 - RFM95 (433/868/915MHz), similar to [link](https://www.mouser.fr/ProductDetail/RF-Solutions/RFM95W-868S2?qs=OlC7AqGiEDnmrtVOomfBWA%3D%3D)
 - 
 
