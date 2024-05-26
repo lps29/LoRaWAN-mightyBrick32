@@ -89,7 +89,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>5</td>
             <td>-</td>
             <td>GPIO 5</td>
-            <td>RFM_DIO2</td>
+            <td>RFM_DIO2 via jumper D2</td>
         </tr>
         <tr>
             <td>LED via jumper L</td>
@@ -99,7 +99,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>4</td>
             <td>-</td>
             <td>GPIO 4</td>
-            <td>RFM_DIO1</td>
+            <td>RFM_DIO1 via jumper D1</td>
         </tr>
         <tr>
             <td>-</td>
