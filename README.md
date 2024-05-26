@@ -7,7 +7,9 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 - The LoRaWAN-mightyBrick32 bootloader is available (here)[] for download if you wish to reflash using a SWD programmer.
 
 ### Pinout
-- 
+| Pinout | LoRaWAN mightyBrick32 | Pinout |
+|--------|-----------------------|--------|
+|        |                       |        |
 
 ### Compatible Radios
 - You can easily find various vendors selling LoRa modules, they all will work as long as their dimensions and pinout are as per the images below. For example - [link1](https://www.mouser.fr/ProductDetail/RF-Solutions/RFM95W-868S2?qs=OlC7AqGiEDnmrtVOomfBWA%3D%3D), [link2](https://www.nicerf.com/lora-module-lora1276-c1-868.html)
