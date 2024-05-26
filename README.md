@@ -10,7 +10,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 - Use "Arduino Pin Names" in the tables below to access pins in Arduio IDE.
 - SPI (SERCOM1) is connected to LoRa module and is not routed any PCB pins.
   | SPI  | Arduino Pin Names| 
-  |-------|-----------------|
+  |:-------:|:-----------------:|
   | MISO  | 6/RF_MISO |
   | MOSI  | 4/RF_MOSI |
   | SCLK  | 5/RF_SCK  |
