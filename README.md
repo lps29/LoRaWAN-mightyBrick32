@@ -39,7 +39,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>VB</td>
             <td>-</td>
             <td>Voltage Battery</td>
-            <td>-</td>
+            <td>Connected to JST + pin</td>
         </tr>
         <tr>
             <td></td>
