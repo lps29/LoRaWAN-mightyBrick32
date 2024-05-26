@@ -7,6 +7,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 - The LoRaWAN-mightyBrick32 bootloader is available (here)[] for download if you wish to reflash using a SWD programmer.
 
 ### Pinout
+- This section contains short description on various pins 
 - Use "Arduino Pin Names" in the tables below to access pins in Arduio IDE.
 - SPI (SERCOM1) is connected to LoRa module and is not routed any PCB pins.
   | SPI  | Arduino Pin Names| 
