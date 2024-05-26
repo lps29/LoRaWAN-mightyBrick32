@@ -25,8 +25,10 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>L3 Name B</td>
         </tr>
         <tr>
+            <td>L1 Name</td>
         </tr>
         <tr>
+            <td>L1 Name</td>
         </tr>
     </tbody>
 </table>
