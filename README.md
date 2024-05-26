@@ -73,7 +73,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>A3</td>
             <td>5</td>
             <td>Digital 5</td>
-            <td></td>
+            <td>RFM_DIO2</td>
         </tr>
         <tr>
             <td>LED via jumper L</td>
@@ -81,22 +81,22 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>A4</td>
             <td>4</td>
             <td>Digital 4</td>
-            <td></td>
+            <td>RFM_DIO1</td>
         </tr>
         <tr>
             <td></td>
             <td>Digital 0</td>
             <td>0</td>
-            <td>3</td>
-            <td>Digital 3</td>
+            <td>3/RX0</td>
+            <td>Digital 3/Serial0 RX</td>
             <td></td>
         </tr>
         <tr>
             <td></td>
             <td>Digital 1</td>
             <td>1</td>
-            <td>2</td>
-            <td>Digital 2</td>
+            <td>2/TX0</td>
+            <td>Digital 2/Serial0 TX</td>
             <td></td>
         </tr>
         <tr>
