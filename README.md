@@ -19,7 +19,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
   | MOSI  | 4/RF_MOSI |
   | SCLK  | 5/RF_SCK  |
   | SS    | 7/RF_SS   |
--  This table only contains short description of the pins, more details on `VE`, `VB` &amp; `3v3` pins and various jumpers can be found in section [`How to power the board`](#how-to-power-the-board) and [`Solder jumpers`](#Solder-jumpers).
+-  The table below only contains short description of the pins, more details on `VE`, `VB` &amp; `3v3` pins and various jumpers can be found in section [`How to power the board`](#how-to-power-the-board) and [`Solder jumpers`](#Solder-jumpers).
 
     <table>
     <thead>
