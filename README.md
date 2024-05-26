@@ -68,7 +68,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td></td>
         </tr>
         <tr>
-            <td></td>
+            <td>Bat voltage measurement via jumper `B`</td>
             <td>Analog 3</td>
             <td>A3</td>
             <td>5</td>
@@ -76,8 +76,8 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td></td>
         </tr>
         <tr>
-            <td></td>
-            <td>Analog 4/LED</td>
+            <td>LED via jumper `L`</td>
+            <td>Analog 4</td>
             <td>A4</td>
             <td>4</td>
             <td>Digital 4</td>
