@@ -10,92 +10,114 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 <table>
     <thead>
         <tr>
-            <th colspan=2>Description</th>
-            <th>Pinout</th>
-            <th>LoRaWAN-mightyBrick32</th>
-            <th>Pinout</th>
-            <th colspan=2>Description</th>
+            <th colspan=2> Description </th>
+            <th> Arduino Pin</th>
+            <th> Pinout-PCB </th>
+            <th> LoRaWAN-mightyBrick32 </th>
+            <th> Pinout-PCB </th>
+            <th> Arduino Pin </th>
+            <th colspan=2> Description </th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td></td>
             <td>Ground</td>
+            <td></td>
             <td>G</td>
             <td rowspan=13> <img src="/images/LoRaWAN_mightBrick32_PCB1.png" alt="drawing" width="200"/> </td>
             <td>VE</td>
+            <td></td>
             <td>Voltage External</td>
             <td></td>
         </tr>
         <tr>
             <td></td>
             <td>Reset</td>
+            <td></td>
             <td>RST</td>
             <td>VB</td>
+            <td></td>
             <td>Voltage Battery</td>
             <td></td>
         </tr>
         <tr>
             <td></td>
             <td>Analog Reference</td>
+            <td></td>
             <td>AR</td>
             <td>G</td>
+            <td></td>
             <td>Ground</td>
             <td></td>
         </tr>
         <tr>
             <td></td>
             <td>Analog 0</td>
+            <td>A0/12</td>
             <td>A0</td>
             <td>3v3</td>
+            <td></td>
             <td>3.3V</td>
             <td></td>
         </tr>
         <tr>
             <td></td>
             <td>Analog 1</td>
+            <td>A1/13</td>
             <td>A1</td>
             <td>SCL</td>
+            <td>SCL/9</td>
             <td>I2C SCL</td>
             <td></td>
         </tr>
         <tr>
             <td>EEPROM power enable via jumper MEM_GPIO</td>
             <td>Analog 2</td>
+            <td>A2/14</td>
             <td>A2</td>
             <td>SDA</td>
+            <td>SDA/8</td>
             <td>I2C SDA</td>
             <td></td>
         </tr>
         <tr>
             <td>Bat voltage measurement via jumper B</td>
             <td>Analog 3</td>
+            <td>A3/15</td>
             <td>A3</td>
             <td>5</td>
+            <td></td>
             <td>Digital 5</td>
             <td>RFM_DIO2</td>
         </tr>
         <tr>
             <td>LED via jumper L</td>
             <td>Analog 4</td>
+            <td></td>
             <td>A4</td>
             <td>4</td>
+            <td></td>
             <td>Digital 4</td>
             <td>RFM_DIO1</td>
         </tr>
         <tr>
             <td></td>
             <td>Digital 0</td>
+            <td></td>
             <td>0</td>
             <td>3/RX0</td>
+            <td>3</td>
             <td>Digital 3/Serial0 RX</td>
             <td></td>
         </tr>
         <tr>
             <td></td>
             <td>Digital 1</td>
+            <td></td>
             <td>1</td>
             <td>2/TX0</td>
+            <td>2</td>
             <td>Digital 2/Serial0 TX</td>
             <td></td>
         </tr>
@@ -103,7 +125,9 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td></td>
             <td></td>
             <td></td>
+            <td></td>
             <td>SWC</td>
+            <td></td>
             <td>SWD CLK</td>
             <td></td>
         </tr>
@@ -111,7 +135,9 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td></td>
             <td></td>
             <td></td>
+            <td></td>
             <td>SWI</td>
+            <td></td>
             <td>SWD IO</td>
             <td></td>
         </tr>
@@ -119,7 +145,9 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td></td>
             <td></td>
             <td></td>
+            <td></td>
             <td>G</td>
+            <td></td>
             <td>Ground</td>
             <td></td>
         </tr>
