@@ -17,45 +17,57 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
     </thead>
     <tbody>
         <tr>
-            <td>L1 Name</td>
-            <td rowspan=10> <img src="/images/LoRaWAN_mightBrick32_PCB1.png" alt="drawing" width="200"/> </td>
-            <td>L3 Name A</td>
+            <td>G</td>
+            <td rowspan=13> <img src="/images/LoRaWAN_mightBrick32_PCB1.png" alt="drawing" width="200"/> </td>
+            <td>VE</td>
         </tr>
         <tr>
-            <td>L3 Name B</td>
-            <td>L3 Name B</td>
+            <td>RST</td>
+            <td>VB</td>
         </tr>
         <tr>
-            <td>L1 Name</td>
-            <td>L3 Name B</td>
+            <td>AR</td>
+            <td>G</td>
         </tr>
         <tr>
-            <td>L1 Name</td>
-            <td>L3 Name B</td>
+            <td>A0</td>
+            <td>3v3</td>
         </tr>
         <tr>
-            <td>L1 Name</td>
-            <td>L3 Name B</td>
+            <td>A1</td>
+            <td>SCL</td>
         </tr>
         <tr>
-            <td>L1 Name</td>
-            <td>L3 Name B</td>
+            <td>A2</td>
+            <td>SDA</td>
         </tr>
         <tr>
-            <td>L1 Name</td>
-            <td>L3 Name B</td>
+            <td>A3</td>
+            <td>5</td>
         </tr>
         <tr>
-            <td>L1 Name</td>
-            <td>L3 Name B</td>
+            <td>A4</td>
+            <td>4</td>
         </tr>
         <tr>
-            <td>L1 Name</td>
-            <td>L3 Name B</td>
+            <td>0</td>
+            <td>3</td>
         </tr>
         <tr>
-            <td>L1 Name</td>
-            <td>L3 Name B</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>SWC</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>SWI</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>G</td>
         </tr>
     </tbody>
 </table>
