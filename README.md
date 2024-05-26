@@ -83,10 +83,10 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td></td>
             <td></td>
             <td>SWC</td>
-            <td>G</td>
             <td>SWD CLK</td>
         </tr>
         <tr>
+            <td></td>
             <td></td>
             <td>SWI</td>
             <td>SWD IO</td>
