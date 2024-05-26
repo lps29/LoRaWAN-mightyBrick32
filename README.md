@@ -30,7 +30,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
         <tr>
             <td></td>
             <td>Reset</td>
-            <td><SPAN STYLE="text-decoration:overline">RST</SPAN></td>
+            <td>RST</td>
             <td>VB</td>
             <td>Voltage Battery</td>
             <td></td>
