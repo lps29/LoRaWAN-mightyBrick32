@@ -32,8 +32,8 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>-</td>
         </tr>
         <tr>
-            <td>Active low</td>
-            <td>Reset</td>
+            <td>-</td>
+            <td>Active low reset</td>
             <td>-</td>
             <td>RST</td>
             <td>VB</td>
