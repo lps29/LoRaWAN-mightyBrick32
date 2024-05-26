@@ -9,7 +9,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 ### Pinout
 | Pinout | LoRaWAN mightyBrick32 | Pinout |
 |--------|-----------------------|--------|
-|        | <img src="LoRaWAN_mightBrick32_PCB1.png" alt="drawing" width="200"/>                     |        |
+|        | <img src="/images/LoRaWAN_mightBrick32_PCB1.png" alt="drawing" width="200"/>                     |        |
 
 ### Compatible Radios
 - You can easily find various vendors selling LoRa modules, they all will work as long as their dimensions and pinout are as per the images below. For example - [link1](https://www.mouser.fr/ProductDetail/RF-Solutions/RFM95W-868S2?qs=OlC7AqGiEDnmrtVOomfBWA%3D%3D), [link2](https://www.nicerf.com/lora-module-lora1276-c1-868.html)
