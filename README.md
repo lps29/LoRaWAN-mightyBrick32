@@ -10,92 +10,118 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 <table>
     <thead>
         <tr>
-            <th>Description</th>
+            <th colspan=2>Description</th>
             <th>Pinout</th>
             <th>LoRaWAN-mightyBrick32</th>
             <th>Pinout</th>
-            <th>Description</th>
+            <th colspan=2>Description</th>
         </tr>
     </thead>
     <tbody>
         <tr>
+            <td></td>
             <td>Ground</td>
             <td>G</td>
             <td rowspan=13> <img src="/images/LoRaWAN_mightBrick32_PCB1.png" alt="drawing" width="200"/> </td>
             <td>VE</td>
             <td>Voltage External</td>
+            <td></td>
         </tr>
         <tr>
+            <td></td>
             <td>Reset</td>
             <td>RST</td>
             <td>VB</td>
             <td>Voltage Battery</td>
+            <td></td>
         </tr>
         <tr>
+            <td></td>
             <td>Analog Reference</td>
             <td>AR</td>
             <td>G</td>
             <td>Ground</td>
+            <td></td>
         </tr>
         <tr>
+            <td></td>
             <td>Analog 0</td>
             <td>A0</td>
             <td>3v3</td>
             <td>3.3V</td>
+            <td></td>
         </tr>
         <tr>
+            <td></td>
             <td>Analog 1</td>
             <td>A1</td>
             <td>SCL</td>
             <td>I2C SCL</td>
+            <td></td>
         </tr>
         <tr>
+            <td></td>
             <td>Analog 2</td>
             <td>A2</td>
             <td>SDA</td>
             <td>I2C SDA</td>
+            <td></td>
         </tr>
         <tr>
+            <td></td>
             <td>Analog 3</td>
             <td>A3</td>
             <td>5</td>
             <td>Digital 5</td>
+            <td></td>
         </tr>
         <tr>
+            <td></td>
             <td>Analog 4/LED</td>
             <td>A4</td>
             <td>4</td>
             <td>Digital 4</td>
+            <td></td>
         </tr>
         <tr>
+            <td></td>
             <td>Digital 0</td>
             <td>0</td>
             <td>3</td>
             <td>Digital 3</td>
+            <td></td>
         </tr>
         <tr>
+            <td></td>
             <td>Digital 1</td>
             <td>1</td>
             <td>2</td>
             <td>Digital 2</td>
+            <td></td>
         </tr>
         <tr>
+            <td></td>
             <td></td>
             <td></td>
             <td>SWC</td>
             <td>SWD CLK</td>
+            <td></td>
         </tr>
         <tr>
+            <td></td>
             <td></td>
             <td></td>
             <td>SWI</td>
             <td>SWD IO</td>
+            <td></td>
         </tr>
         <tr>
             <td></td>
             <td></td>
+            <td></td>
             <td>G</td>
             <td>Ground</td>
+            <td></td>
         </tr>
     </tbody>
 </table>
