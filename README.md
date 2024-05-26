@@ -17,19 +17,16 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
+            <td>L1 Name</td>
+            <td rowspan=4> <img src="/images/LoRaWAN_mightBrick32_PCB1.png" alt="drawing" width="200"/> </td>
             <td>L3 Name A</td>
         </tr>
         <tr>
             <td>L3 Name B</td>
         </tr>
         <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
         </tr>
         <tr>
-            <td>L3 Name D</td>
         </tr>
     </tbody>
 </table>
