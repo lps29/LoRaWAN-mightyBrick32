@@ -29,7 +29,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>VE</td>
             <td>-</td>
             <td>Voltage External</td>
-            <td></td>
+            <td>-</td>
         </tr>
         <tr>
             <td></td>
@@ -39,7 +39,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>VB</td>
             <td>-</td>
             <td>Voltage Battery</td>
-            <td></td>
+            <td>-</td>
         </tr>
         <tr>
             <td></td>
@@ -59,7 +59,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>3v3</td>
             <td>-</td>
             <td>3.3V</td>
-            <td></td>
+            <td>-</td>
         </tr>
         <tr>
             <td></td>
@@ -67,9 +67,9 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>A1/13</td>
             <td>A1</td>
             <td>SCL</td>
-            <td>SCL/9</td>
+            <td>9/SCL</td>
             <td>I2C SCL</td>
-            <td></td>
+            <td>-</td>
         </tr>
         <tr>
             <td>EEPROM power enable via jumper MEM_GPIO</td>
@@ -77,9 +77,9 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>A2/14</td>
             <td>A2</td>
             <td>SDA</td>
-            <td>SDA/8</td>
+            <td>8/SDA</td>
             <td>I2C SDA</td>
-            <td></td>
+            <td>-</td>
         </tr>
         <tr>
             <td>Bat voltage measurement via jumper B</td>
@@ -88,7 +88,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>A3</td>
             <td>5</td>
             <td>-</td>
-            <td>Digital 5</td>
+            <td>GPIO 5</td>
             <td>RFM_DIO2</td>
         </tr>
         <tr>
@@ -98,27 +98,27 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>A4</td>
             <td>4</td>
             <td>-</td>
-            <td>Digital 4</td>
+            <td>GPIO 4</td>
             <td>RFM_DIO1</td>
         </tr>
         <tr>
             <td></td>
-            <td>Digital 0</td>
+            <td>GPIO 0</td>
             <td>0</td>
             <td>0</td>
             <td>3/RX0</td>
             <td>3</td>
-            <td>Digital 3/Serial0 RX</td>
+            <td>GPIO 3/Serial0 RX</td>
             <td></td>
         </tr>
         <tr>
             <td></td>
-            <td>Digital 1</td>
+            <td>GPIO 1</td>
             <td>1</td>
             <td>1</td>
             <td>2/TX0</td>
             <td>2</td>
-            <td>Digital 2/Serial0 TX</td>
+            <td>GPIO 2/Serial0 TX</td>
             <td></td>
         </tr>
         <tr>
