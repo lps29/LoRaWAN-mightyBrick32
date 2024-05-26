@@ -1,16 +1,21 @@
 # LoRaWAN-mightyBrick32
 Everything you would like to know about LoRaWAN-mightyBrick32 board
 
+### Bootloader
+- The LoRaWAN-mightyBrick32 runs the standard Arduino Zero bootloader but compiled for ATSAMD21E18 MCU.
+-  The booloader is located in the first 8KB of internal flash memory and is protected by the NVM user byte fuse.
+- The LoRaWAN-mightyBrick32 bootloader is available (here)[] for download if you wish to reflash using a SWD programmer.
+
+### Pinout
+- 
+
 ### Compatible Radios
 - You can easily find various vendors selling LoRa modules, they all will work as long as their dimensions and pinout are as per the images below. For example - [link1](https://www.mouser.fr/ProductDetail/RF-Solutions/RFM95W-868S2?qs=OlC7AqGiEDnmrtVOomfBWA%3D%3D), [link2](https://www.nicerf.com/lora-module-lora1276-c1-868.html)
   Dimensions in mm            |  Pinout
   :-------------------------:|:-------------------------:
   ![](/images/LoRa-module-dimension.png)  |  ![](/images/LoRa-module-pinout.png)
 
-### Bootloader
-- The LoRaWAN-mightyBrick32 runs the standard Arduino Zero bootloader but compiled for ATSAMD21E18 MCU.
--  The booloader is located in the first 8KB of internal flash memory and is protected by the NVM user byte fuse.
-- The LoRaWAN-mightyBrick32 bootloader is available (here)[] for download if you wish to reflash using a SWD programmer.
+
 
 ### How to use the board in Arduino IDE?
 - To use LoRaWAN-mightyBrick32 with Arduino IDE you will need to install the latest **Arduino SAMD Boards** package and then also the **LowPowerSolutions SAMD Boards** package by [LowPowerSolutions](https://www.tindie.com/stores/lps/).
