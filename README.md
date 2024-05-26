@@ -94,7 +94,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
         <tr>
             <td>LED via jumper L</td>
             <td>Analog 4</td>
-            <td>-</td>
+            <td>A4/16</td>
             <td>A4</td>
             <td>4</td>
             <td>-</td>
