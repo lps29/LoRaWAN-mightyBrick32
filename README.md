@@ -127,7 +127,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>-</td>
             <td>-</td>
             <td>SWC</td>
-            <td>-</td>
+            <td>23</td>
             <td>SWD CLK</td>
             <td></td>
         </tr>
@@ -137,7 +137,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>-</td>
             <td>-</td>
             <td>SWI</td>
-            <td>-</td>
+            <td>24</td>
             <td>SWD IO</td>
             <td></td>
         </tr>
