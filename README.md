@@ -60,7 +60,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td></td>
         </tr>
         <tr>
-            <td></td>
+            <td>EEPROM power enable via jumper MEM_GPIO</td>
             <td>Analog 2</td>
             <td>A2</td>
             <td>SDA</td>
@@ -68,7 +68,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td></td>
         </tr>
         <tr>
-            <td>Bat voltage measurement via jumper `B`</td>
+            <td>Bat voltage measurement via jumper B</td>
             <td>Analog 3</td>
             <td>A3</td>
             <td>5</td>
@@ -76,7 +76,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td></td>
         </tr>
         <tr>
-            <td>LED via jumper `L`</td>
+            <td>LED via jumper L</td>
             <td>Analog 4</td>
             <td>A4</td>
             <td>4</td>
