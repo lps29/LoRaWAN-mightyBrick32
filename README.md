@@ -108,7 +108,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>0</td>
             <td>3/RX0</td>
             <td>3</td>
-            <td>GPIO 3/Serial0 RX</td>
+            <td>GPIO 3/Serial0-RX</td>
             <td>-</td>
         </tr>
         <tr>
@@ -118,7 +118,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>1</td>
             <td>2/TX0</td>
             <td>2</td>
-            <td>GPIO 2/Serial0 TX</td>
+            <td>GPIO 2/Serial0-TX</td>
             <td>-</td>
         </tr>
         <tr>
