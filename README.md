@@ -3,12 +3,12 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 
 ### Bootloader
 - The LoRaWAN-mightyBrick32 runs the standard Arduino Zero bootloader but compiled for ATSAMD21E18 MCU.
--  The booloader is located in the first 8KB of internal flash memory and is protected by the NVM user byte fuse.
+- The booloader is located in the first 8KB of internal flash memory and is protected by the NVM user byte fuse.
 - The LoRaWAN-mightyBrick32 bootloader is available (here)[] for download if you wish to reflash using a SWD programmer.
 
 ### Pinout
 - Use "Arduino Pin Names" in the tables below to access pins in Arduio IDE.
-  SPI (SERCOM1) is connected to LoRa module and is not routed any PCB pins.
+- SPI (SERCOM1) is connected to LoRa module and is not routed any PCB pins.
   | SPI  | Arduino Pin Names| 
   |-------|-----------------|
   | MISO  | 6/RF_MISO |
