@@ -104,7 +104,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
         <tr>
             <td></td>
             <td>Digital 0</td>
-            <td>-</td>
+            <td>0</td>
             <td>0</td>
             <td>3/RX0</td>
             <td>3</td>
@@ -114,7 +114,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
         <tr>
             <td></td>
             <td>Digital 1</td>
-            <td>-</td>
+            <td>1</td>
             <td>1</td>
             <td>2/TX0</td>
             <td>2</td>
