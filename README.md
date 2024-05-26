@@ -14,7 +14,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
     | MOSI  | 4/RF_MOSI |
     | SCLK  | 5/RF_SCK  |
     | SS    | 7/RF_SS   |
-<table>
+- <table>
     <thead>
         <tr>
             <th colspan=2> Description </th>
