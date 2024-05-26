@@ -12,9 +12,9 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
         <tr>
             <th colspan=2> Description </th>
             <th> Arduino Pin Names </th>
-            <th> Pinout-PCB </th>
+            <th> PCB Pin Names </th>
             <th> LoRaWAN-mightyBrick32 </th>
-            <th> Pinout-PCB </th>
+            <th> PCB Pin Names </th>
             <th> Arduino Pin Names </th>
             <th colspan=2> Description </th>
         </tr>
@@ -102,48 +102,48 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>RFM_DIO1</td>
         </tr>
         <tr>
-            <td></td>
+            <td>-</td>
             <td>GPIO 0</td>
             <td>0</td>
             <td>0</td>
             <td>3/RX0</td>
             <td>3</td>
             <td>GPIO 3/Serial0 RX</td>
-            <td></td>
+            <td>-</td>
         </tr>
         <tr>
-            <td></td>
+            <td>-</td>
             <td>GPIO 1</td>
             <td>1</td>
             <td>1</td>
             <td>2/TX0</td>
             <td>2</td>
             <td>GPIO 2/Serial0 TX</td>
-            <td></td>
+            <td>-</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td>-</td>
+            <td>-</td>
             <td>-</td>
             <td>-</td>
             <td>SWC</td>
             <td>23</td>
             <td>SWD CLK</td>
-            <td></td>
+            <td>-</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td>-</td>
+            <td>-</td>
             <td>-</td>
             <td>-</td>
             <td>SWI</td>
             <td>24</td>
             <td>SWD IO</td>
-            <td></td>
+            <td>-</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td>-</td>
+            <td>-</td>
             <td>-</td>
             <td>-</td>
             <td>G</td>
