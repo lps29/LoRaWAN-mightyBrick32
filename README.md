@@ -30,7 +30,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
     </thead>
     <tbody>
         <tr>
-            <td></td>
+            <td>-</td>
             <td>Ground</td>
             <td>-</td>
             <td>G</td>
@@ -51,14 +51,14 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>Connected to JST +</td>
         </tr>
         <tr>
-            <td></td>
+            <td>-</td>
             <td>Analog Reference</td>
             <td>-</td>
             <td>AR</td>
             <td>G</td>
             <td>-</td>
             <td>Ground</td>
-            <td></td>
+            <td>-</td>
         </tr>
         <tr>
             <td></td>
@@ -71,7 +71,7 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>-</td>
         </tr>
         <tr>
-            <td></td>
+            <td>-</td>
             <td>Analog 1</td>
             <td>A1/13</td>
             <td>A1</td>
