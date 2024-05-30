@@ -12,13 +12,13 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
 
 ### Pinout 
 - Use "Arduino Pin Names" in the tables below to access pins in Arduio IDE.
-- SPI (SERCOM1) is connected to LoRa module and is not routed any PCB pins.
+- SPI (SERCOM1) is connected to LoRa module.
   | SPI  | Arduino Pin Names| 
   |:-------:|:-----------------:|
-  | MISO  | 6/RF_MISO |
-  | MOSI  | 4/RF_MOSI |
-  | SCLK  | 5/RF_SCK  |
-  | SS    | 7/RF_SS   |
+  | MISO  | 6 or RF_MISO |
+  | MOSI  | 4 or RF_MOSI |
+  | SCLK  | 5 or RF_SCK  |
+  | SS    | 7 or RF_SS   |
 -  The table below only contains short description of the pins, more details on `VE`, `VB` &amp; `3v3` pins and various jumpers can be found in section [`How to power the board`](#how-to-power-the-board) and [`Solder jumpers`](#Solder-jumpers).
 
     <table>
@@ -67,8 +67,8 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
         </tr>
         <tr>
             <td></td>
-            <td>Analog 0</td>
-            <td>A0/12</td>
+            <td>Analog-0</td>
+            <td>A0 or 12</td>
             <td>A0</td>
             <td>3v3</td>
             <td>-</td>
@@ -77,42 +77,42 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
         </tr>
         <tr>
             <td>-</td>
-            <td>Analog 1</td>
-            <td>A1/13</td>
+            <td>Analog-1</td>
+            <td>A1 or 13</td>
             <td>A1</td>
             <td>SCL</td>
-            <td>9/SCL</td>
+            <td>9 or SCL</td>
             <td>I2C SCL</td>
             <td>-</td>
         </tr>
         <tr>
             <td>EEPROM power enable via jumper MEM_GPIO</td>
-            <td>Analog 2</td>
-            <td>A2/14</td>
+            <td>Analog-2</td>
+            <td>A2 or 14</td>
             <td>A2</td>
             <td>SDA</td>
-            <td>8/SDA</td>
+            <td>8 or SDA</td>
             <td>I2C SDA</td>
             <td>-</td>
         </tr>
         <tr>
             <td>Bat voltage measurement via jumper B</td>
-            <td>Analog 3</td>
-            <td>A3/15</td>
+            <td>Analog-3</td>
+            <td>A3 or 15</td>
             <td>A3</td>
             <td>5</td>
             <td>-</td>
-            <td>GPIO 5</td>
+            <td>GPIO-5</td>
             <td>RFM_DIO2 via jumper D2</td>
         </tr>
         <tr>
             <td>LED via jumper L</td>
-            <td>Analog 4</td>
-            <td>A4/16</td>
+            <td>Analog-4</td>
+            <td>A4 or 16</td>
             <td>A4</td>
             <td>4</td>
             <td>-</td>
-            <td>GPIO 4</td>
+            <td>GPIO-4</td>
             <td>RFM_DIO1 via jumper D1</td>
         </tr>
         <tr>
@@ -120,19 +120,19 @@ Everything you would like to know about LoRaWAN-mightyBrick32 board
             <td>GPIO 0</td>
             <td>0</td>
             <td>0</td>
-            <td>3/RX0</td>
+            <td>3 or RX0</td>
             <td>3</td>
-            <td>GPIO 3/Serial0-RX</td>
+            <td>GPIO-3/Serial0-RX</td>
             <td>-</td>
         </tr>
         <tr>
             <td>-</td>
-            <td>GPIO 1</td>
+            <td>GPIO-1</td>
             <td>1</td>
             <td>1</td>
-            <td>2/TX0</td>
+            <td>2 or TX0</td>
             <td>2</td>
-            <td>GPIO 2/Serial0-TX</td>
+            <td>GPIO-2/Serial0-TX</td>
             <td>-</td>
         </tr>
         <tr>
