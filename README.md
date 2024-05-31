@@ -1,5 +1,5 @@
 # LoRaWAN-mightyBrick32
-Everything you would like to know about LoRaWAN-mightyBrick32 board
+Everything you need to know about LoRaWAN-mightyBrick32 board
 
 ### Bootloader
 - The LoRaWAN-mightyBrick32 runs the standard Arduino Zero bootloader but compiled for ATSAMD21E18 MCU.
