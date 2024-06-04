@@ -238,7 +238,11 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
       delay(1000);                      // wait for a second
     }
   ```
-
+### Peripherals
+- UART
+  - sdfsdf
+- SPI
+- I2C
 
 ### I2C EEPROM
 - 24AA02E64 2Kb I2C EEPROM chip with EUI-64 MAC ID. The EUI-64 can be used as globally unique Device EUI (DevEUI) to uniquely identify a LoRaWAN node.
