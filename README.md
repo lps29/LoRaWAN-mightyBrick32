@@ -81,7 +81,7 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
             <td>A1 or 13</td>
             <td>A1</td>
             <td>SCL</td>
-            <td>9 or SCL</td>
+            <td>7 or SCL</td>
             <td>I2C SCL</td>
             <td>-</td>
         </tr>
@@ -91,7 +91,7 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
             <td>A2 or 14</td>
             <td>A2</td>
             <td>SDA</td>
-            <td>8 or SDA</td>
+            <td>6 or SDA</td>
             <td>I2C SDA</td>
             <td>-</td>
         </tr>
@@ -120,8 +120,8 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
             <td>GPIO 0</td>
             <td>0</td>
             <td>0</td>
+            <td>3 RX0</td>
             <td>3 or RX0</td>
-            <td>3</td>
             <td>GPIO-3/Serial0-RX</td>
             <td>-</td>
         </tr>
@@ -130,8 +130,8 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
             <td>GPIO-1</td>
             <td>1</td>
             <td>1</td>
+            <td>2 TX0</td>
             <td>2 or TX0</td>
-            <td>2</td>
             <td>GPIO-2/Serial0-TX</td>
             <td>-</td>
         </tr>
