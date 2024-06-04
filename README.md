@@ -239,10 +239,12 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
     }
   ```
 ### Peripherals
-- UART
-  - sdfsdf
-- SPI
-- I2C
+In SAMD21E18 MCU there are 4 SERCOM ports that can be configured to use for UART, I2C or SPI. By default in Arduino the UART is on SERCOM0, I2C on SERCOM3 and SPI on SERCOM1. 
+- UART (SERCOM0)
+  - `Serial` == `SerialUSB` is available on USB.
+  - `Serial0` is available on pin number 3 (RX) and 2 (TX).
+- I2C (SERCOM3)
+- SPI (SERCOM1)
 
 ### I2C EEPROM
 - 24AA02E64 2Kb I2C EEPROM chip with EUI-64 MAC ID. The EUI-64 can be used as globally unique Device EUI (DevEUI) to uniquely identify a LoRaWAN node.
