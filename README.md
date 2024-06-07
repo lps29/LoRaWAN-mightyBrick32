@@ -254,7 +254,7 @@ In SAMD21E18 MCU there are 4 SERCOM ports that can be configured to use for UART
 - 24AA02E64 2Kb I2C EEPROM chip with EUI-64 MAC ID. The EUI-64 can be used as globally unique Device EUI (DevEUI) to uniquely identify a LoRaWAN node.
 - The EEPROM chip can be powered from 3.3V or from GPIO pin `A2` using jumpers `MEM_3v3` and `MEM_GPIO` respectively.
 - If you are concerned with power consumption, I would suggest using pin `A2` to control the EEPROM power or remove both jumpers if you don't want EEPROM.
-- The I2C address of 24AA02E64 is `0b 1 0 1 0 A2 A1 A0` apparently for this particular device the last three bits (A2 A1 A0) (excluding R/W bit) are marked don't care, that means the device will respond to any address from `0x50` to `0x57`.
+- The I2C address of 24AA02E64 is `0b 1 0 1 0 A2 A1 A0` and for this particular device the last three bits (A2 A1 A0) (excluding R/W bit) are marked don't care, that means the device will respond to any address from `0x50` to `0x57`.
 - It's possible to use [Sparkfun EEPROM library](https://github.com/sparkfun/SparkFun_External_EEPROM_Arduino_Library/tree/main). Below is the list of settings that is required by the library for 24AA02E64, please see 24AA02E64 datasheet for more details.
   - Memory Type = 2, used by `setMemoryType() \\ If you are using this function then below functions are not needed.` 
   - Memory size in bytes = 256, used by `setMemorySizeBytes(256)`
