@@ -175,7 +175,7 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
   ![](/images/LoRa-module-dimension.png)  |  ![](/images/LoRa-module-pinout.png)
 
 ### Solder jumpers
-- There are many jumpers on LoRaWAN-mightyBrick32, here's a short description of each and default state. Please follow schematics for more details. See section on [`Blue Led`](#blue-led) for more details.
+- There are many jumpers on LoRaWAN-mightyBrick32, here's a short description of each and default state. Please follow schematics for more details.
   - **L** (open) : Use it to connect and disconnect on-board blue LED from `A3` pin. This allows you to save some power or if `A3` is required. See section on [`Measuring VBAT voltage`](#measuring-vbat-voltage) for more details.
   - **B** (open) : There are two jumpers labeled as B, close both of them to enable `VBAT` measuring circuit, open both of them to save leakage current of around ~$1.65\mu A$.
   - **VB** (close) and VE (open) : As depicted in the figure below, it's a 2:1 jumper, where the middle pad is common to both VB and VE. This jumper is used to select battery voltage (`VBAT`) or external voltage (`VIN_EXT`) as the input voltage source for the 3.3V LDO. See section on [`How to power the board`](#how-to-power-the-board) for more details.
