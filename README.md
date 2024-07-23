@@ -22,17 +22,17 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
 - SPI (SERCOM1) is connected to LoRa module.
   | SPI  | Arduino Pin Names| 
   |:-------:|:-----------------:|
-  | MISO  | 6 or RF_MISO |
-  | MOSI  | 4 or RF_MOSI |
-  | SCLK  | 5 or RF_SCK  |
-  | CS    | 7 or RF_CS   |
+  | MISO  | 10 or RF_MISO |
+  | MOSI  | 8 or RF_MOSI |
+  | SCLK  | 9 or RF_SCK  |
+  | CS    | 11 or RF_CS   |
 - Radio Connection
   | Radio Pinout | Arduino Pin Names |
   |:-------:|:-----------------:|
-  | MISO    | 6 or RF_MISO  |
-  | MOSI    | 4 or RF_MOSI  |
-  | SCK     | 5 or RF_SCK   |
-  | NSS     | 7 or RF_CS    |
+  | MISO    | 10 or RF_MISO  |
+  | MOSI    | 8 or RF_MOSI  |
+  | SCK     | 9 or RF_SCK   |
+  | NSS     | 11 or RF_CS    |
   | RESET   | 13 or RF_RST  |
   | DIO0    | 12 or RF_DIO0 |
   | DIO1    | 4 or RF_DIO1  |
