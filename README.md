@@ -119,9 +119,9 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
             <td>A3 or 17</td>
             <td>A3</td>
             <td>5</td>
-            <td>-</td>
+            <td>5 or RF_DIO2</td>
             <td>GPIO-5</td>
-            <td>RFM_DIO2 via jumper D2</td>
+            <td>Radio DIO2 via jumper D2</td>
         </tr>
         <tr>
             <td>LED via jumper L</td>
@@ -129,9 +129,9 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
             <td>A4 or 18</td>
             <td>A4</td>
             <td>4</td>
-            <td>-</td>
+            <td>4 or RF_DIO1</td>
             <td>GPIO-4</td>
-            <td>RFM_DIO1 via jumper D1</td>
+            <td>Radio DIO1 via jumper D1</td>
         </tr>
         <tr>
             <td>-</td>
