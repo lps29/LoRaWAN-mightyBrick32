@@ -187,7 +187,9 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
 
   <figure>
     <img src="https://github.com/lps29/LoRaWAN-mightyBrick32/blob/main/images/lorawan_mightybrick32_power_jumpers.svg" alt="">
-    <figcaption> On board jumpers</figcaption>
+    <figcaption>
+      On board jumpers
+    </figcaption>
   </figure>
 
 ### How to power the board
