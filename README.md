@@ -18,7 +18,7 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
   | MISO  | 6 or RF_MISO |
   | MOSI  | 4 or RF_MOSI |
   | SCLK  | 5 or RF_SCK  |
-  | SS    | 7 or RF_SS   |
+  | SS    | 7 or RF_CS   |
 -  The table below only contains short description of the pins, more details on `VE`, `VB` &amp; `3v3` pins and various jumpers can be found in section [`How to power the board`](#how-to-power-the-board) and [`Solder jumpers`](#Solder-jumpers).
 
     <table>
