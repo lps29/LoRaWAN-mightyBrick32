@@ -10,7 +10,14 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
 - To use LoRaWAN-mightyBrick32 with Arduino IDE you will need to install the latest **Arduino SAMD Boards** package and then also the **LowPowerSolutions SAMD Boards** package by [LowPowerSolutions](https://www.tindie.com/stores/lps/).
 - Add the MightyBrick core json definition URL ([https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json](https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json)) to your Board Manager. Follow this [link](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE) to know how to add third-party platforms to the Boards Manager in Arduino IDE.
 
-### Pinout 
+### Compatible Radios
+- You can easily find various vendors selling LoRa modules, they all will work as long as their dimensions and pinout are as per the images below. For example - [link1](https://www.mouser.fr/ProductDetail/RF-Solutions/RFM95W-868S2?qs=OlC7AqGiEDnmrtVOomfBWA%3D%3D), [link2](https://www.nicerf.com/lora-module-lora1276-c1-868.html)
+  Dimensions in mm            |  Pinout
+  :-------------------------:|:-------------------------:
+  ![](/images/LoRa-module-dimension.png)  |  ![](/images/LoRa-module-pinout.png)
+
+
+### Pinout and Radio Connection
 - Use "Arduino Pin Names" in the tables below to access pins in Arduio IDE.
 - SPI (SERCOM1) is connected to LoRa module.
   | SPI  | Arduino Pin Names| 
@@ -18,7 +25,18 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
   | MISO  | 6 or RF_MISO |
   | MOSI  | 4 or RF_MOSI |
   | SCLK  | 5 or RF_SCK  |
-  | SS    | 7 or RF_CS   |
+  | CS    | 7 or RF_CS   |
+- Radio Connection
+  | Radio Pinout | Arduino Pin Names |
+  |:-------:|:-----------------:|
+  | MISO    | 6 or RF_MISO  |
+  | MOSI    | 4 or RF_MOSI  |
+  | SCK     | 5 or RF_SCK   |
+  | NSS     | 7 or RF_CS    |
+  | RESET   | 13 or RF_RST  |
+  | DIO0    | 12 or RF_DIO0 |
+  | DIO1    | 4 or RF_DIO1  |
+  | DIO2    | 5 or RF_DIO2  |
 -  The table below only contains short description of the pins, more details on `VE`, `VB` &amp; `3v3` pins and various jumpers can be found in section [`How to power the board`](#how-to-power-the-board) and [`Solder jumpers`](#Solder-jumpers).
 
     <table>
@@ -168,11 +186,6 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
     </tbody>
     </table>
 
-### Compatible Radios
-- You can easily find various vendors selling LoRa modules, they all will work as long as their dimensions and pinout are as per the images below. For example - [link1](https://www.mouser.fr/ProductDetail/RF-Solutions/RFM95W-868S2?qs=OlC7AqGiEDnmrtVOomfBWA%3D%3D), [link2](https://www.nicerf.com/lora-module-lora1276-c1-868.html)
-  Dimensions in mm            |  Pinout
-  :-------------------------:|:-------------------------:
-  ![](/images/LoRa-module-dimension.png)  |  ![](/images/LoRa-module-pinout.png)
 
 ### Solder jumpers
 - There are many jumpers on LoRaWAN-mightyBrick32, here's a short description of each and default state. Please follow schematics for more details.
