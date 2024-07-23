@@ -182,10 +182,10 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
   - **D1** (open) : Close it to connect LoRa module's `DIO1` pin to pin `17` of the MCU.
   - **D2** (open) : Close it to connect LoRa module's `DIO2` pin to pin `18` of the MCU.
   - **MEM_3v3_JP** (close) and **MEM_GPIO_JP** (open) : This jumper is not labelled on the board because of space but is shown in figure below. It's a 2:1 jumper, where the middle pad is common to both **MEM_3v3_JP** and **MEM_GPIO_JP** and is connected to VCC of the 24AA02E64 EEPROM. This jumper allows EEPROM to be power from 3.3V or from GPIO. See section on [`I2C EEPROM`](#i2c-eeprom) for more details.
-  - **3v3_JP** (close) : This jumper is not labelled on the board because of space but is shown in figure below. As depicted in the figure below open this jumper to use externally supplied 3.3V using the pin labeled 3v3. See section on [`How to power the board`](#how-to-power-the-board) for more details.
+  - **3v3_JP** (close) : This jumper is not labelled on the board because of space but is shown in figure below. As depicted in the <a href="#jumpers">figure</a> open this jumper to use externally supplied 3.3V using the pin labeled 3v3. See section on [`How to power the board`](#how-to-power-the-board) for more details.
   - **SD_JP** (close) : This jumper is not labelled on the board because of space but is shown in figure below. As depicted in the figure below open this jumper to eliminate reverse leakage current of this shockkty diode. After this avoid connecting the USB as this will disconnect power (`VIN_EXT` or `VBAT`) from rest of the circuit. This is useful in the deployment phase where you only need battery and want to eliminate unnecessary leakage current.
   
-  ![](/images/lorawan_mightybrick32_power_jumpers.svg)
+  <a name="jumpers">![On board jumpers](/images/lorawan_mightybrick32_power_jumpers.svg)</a>
 
 ### How to power the board
 - The board can be powered from 4 different input voltage sources as follows : 
