@@ -189,7 +189,6 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
     <img src="https://github.com/lps29/LoRaWAN-mightyBrick32/blob/main/images/lorawan_mightybrick32_power_jumpers.svg" alt="">
     <figcaption> On board jumpers</figcaption>
   </figure>
-  <a name="jumpers">![jumpers](/images/lorawan_mightybrick32_power_jumpers.svg)</a>
 
 ### How to power the board
 - The board can be powered from 4 different input voltage sources as follows : 
