@@ -86,7 +86,7 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
         <tr>
             <td></td>
             <td>Analog-0</td>
-            <td>A0 or 12</td>
+            <td>A0 or 14</td>
             <td>A0</td>
             <td>3v3</td>
             <td>-</td>
@@ -96,7 +96,7 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
         <tr>
             <td>-</td>
             <td>Analog-1</td>
-            <td>A1 or 13</td>
+            <td>A1 or 15</td>
             <td>A1</td>
             <td>SCL</td>
             <td>7 or SCL</td>
@@ -106,7 +106,7 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
         <tr>
             <td>EEPROM power enable via jumper MEM_GPIO</td>
             <td>Analog-2</td>
-            <td>A2 or 14</td>
+            <td>A2 or 16</td>
             <td>A2</td>
             <td>SDA</td>
             <td>6 or SDA</td>
@@ -116,7 +116,7 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
         <tr>
             <td>Bat voltage measurement via jumper B</td>
             <td>Analog-3</td>
-            <td>A3 or 15</td>
+            <td>A3 or 17</td>
             <td>A3</td>
             <td>5</td>
             <td>-</td>
@@ -126,7 +126,7 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
         <tr>
             <td>LED via jumper L</td>
             <td>Analog-4</td>
-            <td>A4 or 16</td>
+            <td>A4 or 18</td>
             <td>A4</td>
             <td>4</td>
             <td>-</td>
