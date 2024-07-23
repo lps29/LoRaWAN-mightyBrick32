@@ -185,7 +185,7 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
   - **3v3_JP** (close) : This jumper is not labelled on the board because of space but is shown in figure below. As depicted in the <a href="#jumpers">figure</a> open this jumper to use externally supplied 3.3V using the pin labeled 3v3. See section on [`How to power the board`](#how-to-power-the-board) for more details.
   - **SD_JP** (close) : This jumper is not labelled on the board because of space but is shown in figure below. As depicted in the figure below open this jumper to eliminate reverse leakage current of this shockkty diode. After this avoid connecting the USB as this will disconnect power (`VIN_EXT` or `VBAT`) from rest of the circuit. This is useful in the deployment phase where you only need battery and want to eliminate unnecessary leakage current.
   
-  <a name="jumpers">![On board jumpers](/images/lorawan_mightybrick32_power_jumpers.svg)</a>
+  <a name="jumpers">![jumpers](/images/lorawan_mightybrick32_power_jumpers.svg)</a>
 
 ### How to power the board
 - The board can be powered from 4 different input voltage sources as follows : 
