@@ -26,7 +26,7 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
   | MOSI  | 8 or RF_MOSI |
   | SCLK  | 9 or RF_SCK  |
   | CS    | 11 or RF_CS   |
-- Radio Connection
+- The radio is internally connected to the following pins :
   | Radio Pinout | Arduino Pin Names |
   |:-------:|:-----------------:|
   | MISO    | 10 or RF_MISO  |
