@@ -7,7 +7,7 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
 - The LoRaWAN-mightyBrick32 bootloader is available (here)[] for download if you wish to reflash using a SWD programmer.
 
 ### How to use the board in Arduino IDE?
-- To use LoRaWAN-mightyBrick32 with Arduino IDE you will need to install the latest **Arduino SAMD Boards** package and then also the **LowPowerSolutions SAMD Boards** package by [LowPowerSolutions](https://www.tindie.com/stores/lps/).
+- To use LoRaWAN-mightyBrick32 with Arduino IDE you will need to install the latest **Arduino SAMD Boards** package and also the **LowPowerSolutions SAMD Boards** package.
 - Add the MightyBrick core json definition URL ([https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json](https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json)) to your Board Manager. Follow this [link](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE) to know how to add third-party platforms to the Boards Manager in Arduino IDE.
 
 ### Compatible Radios
