@@ -8,7 +8,7 @@ Everything you need to know about LoRaWAN-mightyBrick32 board
 
 ### How to use the board in Arduino IDE?
 - To use LoRaWAN-mightyBrick32 with Arduino IDE you will need to install the latest **Arduino SAMD Boards** package and also the **LowPowerSolutions SAMD Boards** package.
-- Add the MightyBrick core json definition URL ([https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json](https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json)) to your Board Manager. Follow this [link](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE) to know how to add third-party platforms to the Boards Manager in Arduino IDE.
+- Add the MightyBrick core json definition URL ([https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json](https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json)) to your Board Manager. Follow this [link](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE) to know how to add third-party platforms to the Boards Manager in Arduino IDE. Via CLI is one liner: `arduino-cli core install MightyBrick:samd --additional-urls https://lps29.github.io/MightyBrick/package_LowPowerSolutions_index.json`
 
 ### Compatible Radios
 - You can easily find various vendors selling LoRa modules, they all will work as long as their dimensions and pinout are as per the images below. For example - [link1](https://www.mouser.fr/ProductDetail/RF-Solutions/RFM95W-868S2?qs=OlC7AqGiEDnmrtVOomfBWA%3D%3D), [link2](https://www.nicerf.com/lora-module-lora1276-c1-868.html)
